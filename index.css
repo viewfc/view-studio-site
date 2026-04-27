@@ -1,5 +1,78 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
 
-html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.portal-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e4fcf1 0%, #bbf7d0 100%);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.portal-content {
+  max-width: 600px;
+  width: 100%;
+}
+
+.portal-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.portal-title {
+  color: #065f46;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
+}
+
+.portal-subtitle {
+  color: #047857;
+  font-size: 1.1rem;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.15);
+  border-radius: 1.5rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(16, 185, 129, 0.4);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.glass-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.glass-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #064e3b;
+}
