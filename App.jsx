@@ -4,7 +4,7 @@ import './index.css';
 function App() {
   // 1. ใส่ URL ของแต่ละแอปในช่อง link ครับ
   const appList = [
-    { id: 1, name: 'สภาพอากาศ AI', icon: '⛅️', link: 'https://weather-app-yourlink.vercel.app' },
+    { id: 1, name: 'สภาพอากาศ AI', icon: '⛅️', link: 'https://gemini.google.com/share/254df72f0da1' },
     { id: 2, name: 'ข้อมูลและสถิติ', icon: '📊', link: 'https://google.com' },
     { id: 3, name: 'ระบบบริหารโรงเรียน', icon: '🏫', link: 'https://school-system.vercel.app' },
     { id: 4, name: 'ตั้งค่า AI ส่วนตัว', icon: '⚙️', link: '#' },
