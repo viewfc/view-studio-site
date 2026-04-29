@@ -5,7 +5,7 @@ function App() {
   // 1. ใส่ URL ของแต่ละแอปในช่อง link ครับ
   const appList = [
     { id: 1, name: 'สภาพอากาศ AI', icon: '⛅️', link: 'https://gemini.google.com/share/254df72f0da1' },
-    { id: 2, name: 'ข้อมูลและสถิติ', icon: '📊', link: '#' },
+    { id: 2, name: 'ดูดวง', icon: '🔮', link: 'https://gemini.google.com/share/c1b52e9c1241' },
     { id: 3, name: 'ระบบบริหารโรงเรียน', icon: '🏫', link: '#' },
     { id: 4, name: 'ตั้งค่า AI ส่วนตัว', icon: '⚙️', link: '#' },
     { id: 5, name: 'AI ชุมชน', icon: '👥', link: '#' },
