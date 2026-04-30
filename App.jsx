@@ -29,15 +29,21 @@ function App() {
   ];
 
   return (
-    <div className="portal-container">
-      <div className="portal-content">
-        <div className="portal-header">
+    <div className="portal-container" style={{ minHeight: '100vh', width: '100%' }}>
+      {/* แก้ตรงนี้: บังคับให้ความกว้างขยายเต็มจอ (95% ของหน้าจอ) */}
+      <div className="portal-content" style={{ maxWidth: '95%', width: '100%', margin: '0 auto', padding: '20px' }}>
+        <div className="portal-header" style={{ textAlign: 'center', marginBottom: '40px' }}>
           <h1 className="portal-title">ศูนย์รวมแอปพลิเคชัน อ.ลี้</h1>
           <p className="portal-subtitle">ขับเคลื่อนด้วยเทคโนโลยี AI</p>
         </div>
         
         {/* โซนแสดงปุ่มแอปพลิเคชันทั้งหมด */}
-        <div className="app-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px', marginTop: '30px' }}>
+        <div className="app-grid" style={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', /* ปรับขนาดกล่องขั้นต่ำให้กว้างขึ้นเป็น 200px */
+          gap: '24px', 
+          width: '100%' 
+        }}>
           {appList.map((app) => (
             <a 
               key={app.id} 
@@ -45,10 +51,21 @@ function App() {
               target={app.link !== '#' ? "_blank" : "_self"} 
               rel="noopener noreferrer"
               className="app-card"
-              style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px', backgroundColor: 'white', borderRadius: '12px', textDecoration: 'none', color: '#333', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}
+              style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                padding: '30px 20px', 
+                backgroundColor: 'white', 
+                borderRadius: '16px', 
+                textDecoration: 'none', 
+                color: '#333', 
+                boxShadow: '0 4px 12px rgba(0,0,0,0.08)' 
+              }}
             >
-              <div style={{ fontSize: '40px', marginBottom: '10px' }}>{app.icon}</div>
-              <div style={{ fontSize: '14px', fontWeight: 'bold', textAlign: 'center' }}>{app.name}</div>
+              <div style={{ fontSize: '48px', marginBottom: '15px' }}>{app.icon}</div>
+              <div style={{ fontSize: '16px', fontWeight: 'bold', textAlign: 'center' }}>{app.name}</div>
             </a>
           ))}
         </div>
