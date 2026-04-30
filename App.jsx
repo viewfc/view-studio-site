@@ -47,7 +47,7 @@ function App() {
         {/* ส่วนหัวข้อ */}
         <div className="portal-header" style={{ textAlign: 'center', marginBottom: '50px' }}>
           <h1 className="portal-title" style={{ color: '#006d4e', fontSize: '2.5rem', marginBottom: '10px' }}>
-            ศูนย์รวมแอปพลิเคชัน อ.ลี้
+            ศูนย์รวมแอปพลิเคชัน 
           </h1>
           <p className="portal-subtitle" style={{ color: '#2d5a4c', fontSize: '1.2rem' }}>
             ขับเคลื่อนด้วยเทคโนโลยี AI
