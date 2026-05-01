@@ -9,10 +9,13 @@ function App() {
     { id: 2, name: 'ดูดวง', icon: '🔮', link: 'https://gemini.google.com/share/c1b52e9c1241' },
     { id: 3, name: 'ติวสอบครู', icon: '📝', link: 'https://gemini.google.com/share/4f6389a8e027' },
     { id: 4, name: 'AI ส่วนตัว', icon: '🤖', link: 'https://url.in.th/dIYSj' },
-    
+    { id: 5, name: 'Prompt AI', icon: '📝', link: 'https://kinetic-prompter.lovable.app/' },
+    { id: 6, name: 'นับแคลอรี่', icon: '🍎', link: 'https://tam-mai-sao.lovable.app/' },
+
+
     // แอปที่เหลือ (ใส่ '#' ไว้ก่อนเพื่อให้เป็นสีเทา)
-    { id: 5, name: 'AI ชุมชน', icon: '👥', link: '#' },
-    { id: 6, name: 'แจ้งเหตุฉุกเฉิน AI', icon: '🚨', link: '#' },
+    { id: 15, name: 'AI ชุมชน', icon: '👥', link: '#' },
+    { id: 16, name: 'แจ้งเหตุฉุกเฉิน AI', icon: '🚨', link: '#' },
     { id: 7, name: 'เขียนแผนหน้าเดียวจบ', icon: '📑', link: '#' }, 
     { id: 8, name: 'ระบบรวบรวม PA', icon: '📊', link: '#' }, 
     { id: 9, name: 'จัดการข้อมูลโรงเรียน', icon: '🏫', link: '#' }, 
@@ -21,8 +24,8 @@ function App() {
     { id: 12, name: 'คำนวณค่าไฟ/แอร์', icon: '⚡', link: '#' }, 
     { id: 13, name: 'สร้างภาพ AI', icon: '🎨', link: '#' }, 
     { id: 14, name: 'สร้างเพลงและเสียง', icon: '🎵', link: '#' }, 
-    { id: 15, name: 'แปลภาษาอัจฉริยะ', icon: '🌐', link: '#' },
-    { id: 16, name: 'ผู้ช่วยตรวจข้อสอบ', icon: '✅', link: '#' },
+    { id: 25, name: 'แปลภาษาอัจฉริยะ', icon: '🌐', link: '#' },
+    { id: 26, name: 'ผู้ช่วยตรวจข้อสอบ', icon: '✅', link: '#' },
     { id: 17, name: 'สรุปข่าวสารรายวัน', icon: '📰', link: '#' },
     { id: 18, name: 'ทำสไลด์นำเสนอ', icon: '🖥️', link: '#' },
     { id: 19, name: 'จัดการเอกสาร PDF', icon: '📄', link: '#' },
