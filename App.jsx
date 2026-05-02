@@ -11,12 +11,12 @@ function App() {
     { id: 4, name: 'AI ส่วนตัว', icon: '🤖', link: 'https://url.in.th/dIYSj' },
     { id: 5, name: 'Prompt AI', icon: '📝', link: 'https://kinetic-prompter.lovable.app/' },
     { id: 6, name: 'นับแคลอรี่', icon: '🍎', link: 'https://tam-mai-sao.lovable.app/' },
+    { id: 7, name: 'วารสารโรงเรียน AI Studio', icon: '🖥️', link: 'https://ai-magix-journal.lovable.app/' },
 
 
     // แอปที่เหลือ (ใส่ '#' ไว้ก่อนเพื่อให้เป็นสีเทา)
     { id: 15, name: 'AI ชุมชน', icon: '👥', link: '#' },
     { id: 16, name: 'แจ้งเหตุฉุกเฉิน AI', icon: '🚨', link: '#' },
-    { id: 7, name: 'เขียนแผนหน้าเดียวจบ', icon: '📑', link: '#' }, 
     { id: 8, name: 'ระบบรวบรวม PA', icon: '📊', link: '#' }, 
     { id: 9, name: 'จัดการข้อมูลโรงเรียน', icon: '🏫', link: '#' }, 
     { id: 10, name: 'ผู้ช่วยวิเคราะห์หุ้น', icon: '📈', link: '#' }, 
